@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"AAAA;CACC,WAAW;CACX;;ACAD;CACC,aAAa;CACb","sourcesContent":[".bar {\n\tcolor: red;\n}\n","@import \"./lib.css\";\n\n.foo {\n\tcolor: green;\n}\n"]}

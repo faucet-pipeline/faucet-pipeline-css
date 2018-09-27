@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+root=`dirname "$0"`
+root=`node -r fs -p "fs.realpathSync(process.argv[1]);" "$root"`
+
+. "$root/../node_modules/faucet-pipeline-core/test/cli_harness.sh"
+
+begin "$root/test_basic"
+	faucet
+	assert_identical "./dist/bundle.css" "./expected.css"
+	assert_missing "./expected.json"
+end
+
+begin "$root/test_error"
+	faucet || echo "Crashed successfully"
+	assert_identical "./dist/bundle.css" "./expected.css"
+end
+
+begin "$root/test_fingerprinting"
+	faucet --fingerprint
+	assert_identical "./dist/fingerprint/bundle-12c46b3f47e2c83fc4f31fb2d6564c51.css" "./expected.css"
+	assert_identical "./dist/no-fingerprint/bundle.css" "./expected.css"
+	assert_json "./dist/manifest.json" "./expected.json"
+end
+
+begin "$root/test_sourcemap"
+	faucet --sourcemaps
+	assert_identical_sourcemap "./dist/bundle.css" "./expected.css" "./expected.css.map"
+end
+
+echo; echo "SUCCESS: all tests passed"
