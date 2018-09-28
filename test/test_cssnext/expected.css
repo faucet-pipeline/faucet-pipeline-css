@@ -1,0 +1,11 @@
+:root {
+	--fontSize: 1rem;
+}
+
+body {
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+	font-size: 1rem;
+	font-size: var(--fontSize);
+	-ms-user-select: none;
+	user-select: none;
+}

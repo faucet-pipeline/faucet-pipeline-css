@@ -1,0 +1,9 @@
+:root {
+	--fontSize: 1rem;
+}
+
+body {
+	font-family: system-ui;
+	font-size: var(--fontSize);
+	user-select: none;
+}
