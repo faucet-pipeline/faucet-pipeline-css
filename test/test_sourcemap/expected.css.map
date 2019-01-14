@@ -1,1 +1,9 @@
-{"version":3,"names":[],"mappings":"AAAA;CACC,WAAW;CACX;;ACAD;CACC,aAAa;CACb","sourcesContent":[".bar {\n\tcolor: red;\n}\n","@import \"./lib.css\";\n\n.foo {\n\tcolor: green;\n}\n"]}
+{
+	"version":3,
+	"names":[],
+	"mappings":"AAAA;CACC,UAAU;AACX;;ACAA;CACC,YAAY;AACb",
+	"sourcesContent":[
+		".bar {\n\tcolor: red;\n}\n",
+		"@import \"./lib.css\";\n\n.foo {\n\tcolor: green;\n}\n"
+	]
+}
