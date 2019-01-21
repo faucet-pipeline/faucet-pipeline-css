@@ -29,4 +29,9 @@ begin "$root/test_sourcemap"
 	assert_identical_sourcemap "./dist/bundle.css" "./expected.css" "./expected.css.map"
 end
 
+begin "$root/test_static_integration"
+	faucet
+	assert_identical "./dist/bundle.css" "./expected.css"
+end
+
 echo; echo "SUCCESS: all tests passed"
