@@ -20,7 +20,7 @@
 	"homepage": "https://www.faucet-pipeline.org",
 	"dependencies": {
 		"faucet-pipeline-core": "^1.6.1",
-		"postcss": "~8.3.0",
+		"postcss": "~8.4.4",
 		"postcss-discard-comments": "~5.0.1",
 		"postcss-import": "~14.0.2",
 		"postcss-message-helpers": "~2.0.0",
