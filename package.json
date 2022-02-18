@@ -1,6 +1,6 @@
 {
 	"name": "faucet-pipeline-css",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "CSS for faucet-pipeline",
 	"main": "lib/index.js",
 	"scripts": {
