@@ -1,5 +1,13 @@
-faucet-pipeline-images version history
-======================================
+faucet-pipeline-css version history
+===================================
+
+v0.2.1
+------
+
+_2022-02-18_
+
+Maintenance release to update dependencies; no significant changes
+
 
 v0.2.0
 ------

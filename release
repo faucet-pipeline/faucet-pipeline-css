@@ -4,8 +4,8 @@ set -eu
 
 . ./node_modules/release-util-fnd/lib.sh
 
-pre_release_checks
-npm run test
+pre_release_checks main
+npm test
 
 create_package > /dev/null
-publish_package
+publish_package origin main

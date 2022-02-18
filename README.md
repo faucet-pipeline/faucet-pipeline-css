@@ -1,7 +1,7 @@
 # faucet-pipeline-css
 [![npm](https://img.shields.io/npm/v/faucet-pipeline-css.svg)](https://www.npmjs.com/package/faucet-pipeline-css)
 
-You can find the documentation [here](http://www.faucet-pipeline.org).
+You can find the documentation [here](http://www.faucet-pipeline.org/css).
 
 ## License
 
