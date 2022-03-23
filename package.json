@@ -22,7 +22,7 @@
 		"faucet-pipeline-core": "^1.6.1",
 		"postcss": "~8.4.6",
 		"postcss-discard-comments": "~5.1.0",
-		"postcss-import": "~14.0.2",
+		"postcss-import": "~14.1.0",
 		"postcss-message-helpers": "~2.0.0",
 		"postcss-normalize-whitespace": "~5.1.0"
 	},
