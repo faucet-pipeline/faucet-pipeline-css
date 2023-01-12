@@ -1,6 +1,6 @@
 {
 	"name": "faucet-pipeline-css",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"description": "CSS for faucet-pipeline",
 	"main": "lib/index.js",
 	"scripts": {
@@ -22,7 +22,7 @@
 		"node": ">= 14"
 	},
 	"dependencies": {
-		"faucet-pipeline-core": "^1.6.1",
+		"faucet-pipeline-core": "^2.0.0",
 		"postcss": "~8.4.12",
 		"postcss-discard-comments": "~5.1.0",
 		"postcss-import": "~15.1.0",
@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"eslint-config-fnd": "^1.13.0",
-		"faucet-pipeline-static": "^2.0.0",
+		"faucet-pipeline-static": "^2.1.0",
 		"json-diff": "^1.0.0",
 		"npm-run-all": "^4.1.5",
 		"release-util-fnd": "^3.0.0"
