@@ -14,10 +14,5 @@ module.exports = {
 		target: "./dist/manifest.json",
 		value: f => `/assets/${f}`
 	},
-	plugins: {
-		css: {
-			plugin: path.resolve("../.."),
-			bucket: "styles"
-		}
-	}
+	plugins: [path.resolve("../..")]
 };
