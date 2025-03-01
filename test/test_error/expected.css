@@ -1,5 +1,5 @@
 body:before {
-	content: "\26a0  CSS Error: src/index.css:2:2: Unknown word";
+	content: "\26a0  CSS Error: src/index.css:2:2: Unknown word color";
 	font-weight: bold;
 	display: block;
 	border: 5px solid red;

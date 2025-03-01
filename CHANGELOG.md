@@ -1,6 +1,19 @@
 faucet-pipeline-css version history
 ===================================
 
+v0.4.0
+------
+
+_2025-10-26_
+
+notable changes for end users:
+
+* dropped support for Node 19 and below
+* update dependencies
+
+no significant changes for developers
+
+
 v0.3.0
 ------
 
