@@ -19,7 +19,7 @@
 	},
 	"homepage": "https://www.faucet-pipeline.org",
 	"engines": {
-		"node": ">= 14"
+		"node": ">= 18"
 	},
 	"dependencies": {
 		"faucet-pipeline-core": "^2.0.0",
