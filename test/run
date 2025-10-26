@@ -34,7 +34,7 @@ begin "$root/test_sourcemap"
 	assert_identical_sourcemap "./dist/bundle.css" "./expected.css" "./expected.css.map"
 end
 
-begin "$root/test_static_integration"
+begin "$root/test_assets_integration"
 	faucet
 	assert_identical "./dist/bundle.css" "./expected.css"
 end

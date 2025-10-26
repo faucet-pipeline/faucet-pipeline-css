@@ -6,7 +6,7 @@ module.exports = {
 		source: "./src/index.css",
 		target: "./dist/bundle.css"
 	}],
-	static: [{
+	assets: [{
 		source: "./src/spacer.gif",
 		target: "./dist/spacer.gif"
 	}],
